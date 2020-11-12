@@ -7,3 +7,8 @@ const Version = 0.1
 func Test() string {
 	return "test"
 }
+
+// TestTime empty function
+func TestTime() {
+
+}
