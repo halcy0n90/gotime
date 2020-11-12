@@ -4,6 +4,6 @@ package gotime
 const Version = 0.1
 
 // Test return a test string means this function is good
-func Test() {
+func Test() string {
 	return "test"
 }
