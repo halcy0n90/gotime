@@ -6,11 +6,13 @@ import "time"
 // import
 
 // Version release version
-const Version = 0.1
-const minute = 60
-const hour = 60 * minute
-const halfDay = 12 * hour
-const oneDay = 24 * hour
+const (
+	Version = 0.1
+	minute  = 60
+	hour    = 60 * minute
+	halfDay = 12 * hour
+	oneDay  = 24 * hour
+)
 
 // Test return a test string means this function is good
 func Test() string {
